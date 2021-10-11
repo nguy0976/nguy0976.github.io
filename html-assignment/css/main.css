@@ -1,10 +1,12 @@
 header, footer {
     background-color:skyblue;   
 }
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
 }
+
 .site-title {
     color:royalblue
 }
@@ -13,7 +15,7 @@ body {
 }
 
 a:link {
-    border-color: 5px red;
+    border: 2px solid red;
     background-color: yellowgreen;
     text-decoration: none;
 }
@@ -25,6 +27,7 @@ a:hover {
 li:nth-child(odd) {
     background-color: cadetblue;
 }
+
 ul{
     list-style-type: square;
 }
