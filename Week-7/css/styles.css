@@ -1,10 +1,12 @@
 .box {
     width: 200px;
     background-color: aquamarine;
-    color: #fff
-    /* introduce box model */
+    color: #fff;
+ /* introduce box model */
     padding: 10px;
     border: 5px solid #900;
     margin: 10px;
-
+}
+.box1 {
+    margin: 0 auto;
 }
