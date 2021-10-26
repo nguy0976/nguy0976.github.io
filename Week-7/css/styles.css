@@ -23,8 +23,9 @@ html{
   }
 
 nav ul li {
-    display: inline-block;
+    display: inline;
     margin: 10px;
+    
 }
 .clear {
     clear: left;
@@ -54,5 +55,8 @@ nav ul li {
     /* position: absolute;
     top: -50px;
     left: 200px; */
+}
+.prop {
+    position: fixed;
 }
     
