@@ -1,0 +1,43 @@
+body {
+    margin: -32px 0px 10px 160px; /* all work space in the middle */
+    background-color:rgb(196, 228, 238) ;
+    width: 70rem;
+    height: 80rem;
+    outline: 400px solid #aad4cf;
+
+}
+h1 {
+    position: relative;
+    color: white;
+    left: 390px;
+    top: 180px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    height: 60px;
+}
+h2 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    color: black;
+    display: inline-block;
+    width: 250px;
+    text-decoration: none;
+}
+.image1 {
+   display: block;
+    margin: auto; /* center a picture */ 
+    width: 1119px;
+    height: 300px;
+    margin-top: -90px; /* move the picture on the top */
+    
+}
+.image2 {
+    width: 200px;
+    margin: auto;
+    float: left;
+}
+.form {
+    border: 2px solid black;
+}
