@@ -1,9 +1,10 @@
+/* style background and font */
 body{
     font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
 }
 
-
+/* Create a working box in middle of the web page */
 .container{
     background: #DFF2EF;
     width: 80vw;
@@ -12,27 +13,26 @@ body{
     padding-left: 10px;
   }
 
-
-#top-background {
-    background: url(../images/lone-starfish-wide.jpg);
-    width: 100%;
-    height: 350px;
-    display: flex;
+/* working with size and move the top picture */  
+.img1 {
+    width: 1172px;
+    height: 300px;
+    margin-top: -45px;
+    margin-left: -10px;
 }
-
-
+  
 h1{
     position: relative;
     margin: auto;
-    top: 10%;
     color: white;
     font-size: 40px;
-    text-align: center;
+    text-align: center; /* center the heading */
+    top: 200px; /* move down  heading */
 }
 
 
 img{
-    width: 200px;
+    width: 220px;
     float: left;
     padding-right: 7px;
     padding-bottom: 15px;
@@ -41,6 +41,7 @@ img{
 
 p{
     padding-left: 2px;
+    padding-right: 60px;
 }
 
 
@@ -54,6 +55,10 @@ nav ul {
     
 }
 
+ul li {
+   margin-left: -20px;
+   /* left margin for Starfish Facts */
+}
 
 nav ul li {
     text-transform: uppercase;
@@ -63,7 +68,7 @@ nav ul li {
     padding-left: 13%;
     padding-right: 13%;
     padding-top: 5px;
-padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 
 
@@ -78,6 +83,9 @@ padding-bottom: 5px;
     box-sizing: border-box;
 }
 
+.radio {
+    display: inline;
+}
 
 footer {
     text-align: right;
@@ -88,4 +96,5 @@ footer {
 
 div input,textarea {
     width: 100%;
+    
 }
