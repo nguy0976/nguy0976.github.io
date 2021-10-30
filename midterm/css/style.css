@@ -19,6 +19,7 @@ body{
     height: 300px;
     margin-top: -45px;
     margin-left: -10px;
+    position: relative;
 }
   
 h1{
@@ -96,5 +97,5 @@ footer {
 
 div input,textarea {
     width: 100%;
-    
+
 }
