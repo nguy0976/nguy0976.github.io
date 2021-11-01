@@ -15,11 +15,10 @@ body{
 
 /* working with size and move the top picture */  
 .img1 {
-    width: 1172px;
+    width: 102%;
     height: 300px;
     margin-top: -45px;
     margin-left: -10px;
-    position: relative;
 }
   
 h1{
@@ -98,4 +97,8 @@ footer {
 div input,textarea {
     width: 100%;
 
+}
+
+.radio-button {
+    width:3%;
 }
