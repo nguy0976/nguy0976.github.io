@@ -15,7 +15,7 @@ body {
 
 /* working with size and move the top picture */  
 .img1 {
-    width: 102%;
+    width: 101.7%;
     height: 300px;
     margin-top: -45px;
     margin-left: -10px;
@@ -112,4 +112,11 @@ div textarea {
 
 .radio-button {
     width:3%;
+}
+
+.send {
+    margin-top: 20px;
+    height: 35px;
+    width: 55px;
+    background: #DFF2EF;
 }
