@@ -32,10 +32,13 @@ h1 {
 
 h2 {
     font-size: 30px;
+    margin-bottom: 10px;
 }
 
 h3 {
     font-size: 25px;
+    margin-top: 40px;
+    margin-bottom: 10px;
 }
 
 /* sizing and float the picture */
