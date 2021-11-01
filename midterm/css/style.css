@@ -52,7 +52,7 @@ p {
     font-size: 18px;
 }
 
-
+/* center navigation-link */
 nav ul {
     list-style: none;
     width: 100%;
@@ -68,6 +68,7 @@ ul li {
    /* left margin for Starfish Facts */
 }
 
+/* sizing and move for Facts about Starfish */
 nav ul li {
     text-transform: uppercase;
     display: inline;
@@ -79,10 +80,12 @@ nav ul li {
     padding-bottom: 5px;
 }
 
+/* remove a border next to Contact part */
 #contact {
     border: none;
 }
 
+/* create a border around the form */
 .contact {
     border: 1px solid black;
     padding: 1.5em;
@@ -90,7 +93,7 @@ nav ul li {
 }
 
 footer {
-   text-align: right;
+   text-align: right; /* move footer to right of the page */
    background: #DFF2EF;
    width: 80vw;
    padding-top: 15px;
@@ -111,9 +114,10 @@ div textarea {
 }
 
 .radio-button {
-    width:3%;
+    width:1%; /* space between each radio */
 }
 
+/* working with send buttom and sizing */
 .send {
     margin-top: 20px;
     height: 35px;
