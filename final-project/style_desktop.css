@@ -1,0 +1,17 @@
+@media screen and (min-width: 1200px) {
+    .container_top {
+        background-color: #222;
+        height: 150px;
+        margin-top: 0px;
+}
+
+ nav ul li {
+    list-style: none;
+    display: inline;
+    
+}
+
+.img1 {
+    margin-top: 30px;
+    margin-left: 9em;
+}
