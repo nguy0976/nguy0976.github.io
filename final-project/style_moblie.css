@@ -17,9 +17,10 @@
 ul li {
         list-style: none;
         text-align: center;
-        padding-bottom: 24px;
-        font-size: 18px;
-        font-family: 'Open Sans';
+        padding-bottom: 25px;
+        font-size: 16px;
+        font-family: 'Open Sans' , sans-serif;
+        font-weight: bold;
 }
 .home1 {
     color: black;
@@ -43,11 +44,26 @@ ul li a {
 
 p {
     font-size: 14px;
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
+}
+
+h1 {
+    position: relative;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 80px;
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: bold;
 }
 h2 {
-    font-family: 'Open Sans';
+    font-family: 'Open Sans' , sans-serif;
     font-size: 48px;
+    font-weight: bold;
+}
+h3 {
+    font-size: 30px;
+    font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
 }
 
@@ -58,38 +74,24 @@ h2 {
 }
 
 .home-info {
-    width: 100%;
-    height: 350px;
+    width: 97%;
+    height: 420px;
     background-color: #222;
     position: relative;
     margin: auto;
     padding: 10px;
-    padding-top: 30px;
-    bottom: 460px;
+    padding-top: -10px;
+    bottom: 510px;
     color: white;
     border: 0.5px solid rgba(0, 0, 0, 0.267);
     background-color:rgba(0, 0, 0, 0.534) ;
     display: block;
 }
 
-h1 {
-    position: relative;
-    margin: auto;
-    margin-top: 10px;
-    font-size: 68px;
-    font-family: 'Open Sans';
-    font-weight: bold;
-}
-h3 {
-    font-size: 30px;
-    font-family: 'Open Sans';
-    font-weight: bold;
-}
-
 .container_aboutus {
     background-color: #ffe6ac;
-    height: 900px;
-    margin-top: -400px;
+    height: 700px;
+    margin-top: -480px;
 }
 
 .img3 {
@@ -101,8 +103,9 @@ h3 {
 .container_digital {
     background-color: #ffe6ac;
     width: 95%;
-    height: 1000px;
+    height: 700px;
     margin-left: 10px;
+    margin-top: -25px
 }
 
 .img4 {
@@ -112,7 +115,7 @@ h3 {
 .container_marketing {
     background-color: #ffe6ac;
     width: 95%;
-    height: 1000px;
+    height: 700px;
     margin-left: 10px;
     margin-top: 15px;
 }
@@ -124,7 +127,7 @@ h3 {
 .container_video {
     background-color: #ffe6ac;
     width: 95%;
-    height: 1000px;
+    height: 700px;
     margin-left: 10px;
     margin-top: 15px;
 }
@@ -136,7 +139,7 @@ h3 {
 .container_web {
     background-color: #ffe6ac;
     width: 95%;
-    height: 1000px;
+    height: 700px;
     margin-left: 10px;
     margin-top: 15px;
 }
@@ -148,7 +151,7 @@ h3 {
 .container_print {
     background-color: #ffe6ac;
     width: 95%;
-    height: 1000px;
+    height: 700px;
     margin-left: 10px;
     margin-top: 15px; 
 }
@@ -159,14 +162,85 @@ h3 {
 
 .img9 {
     width: 100%;
-    height: 400px;
+    height: 280px;
     margin-top: 30px;
+}
+.vision {
+    margin-top: -280px;
+}
+
+.team {
+    margin-top: 120px;
+}
+
+.container_john {
+    background-color: #ffe6ac;
+    width: 95%;
+    height: 700px;
+    margin-left: 15px;
+    margin-top: 10px; 
+}
+.img10 {
+    width: 100%;
+}
+.container_bob {
+    background-color: #ffe6ac;
+    width: 95%;
+    height: 700px;
+    margin-left: 15px;
+    margin-top: 10px; 
+}
+.img11 {
+    width: 100%;
+}    
+
+div input,textarea {
+    width: 100%;
+    margin-top: 10px;
+}
+div textarea {
+    height: 120px;
+}
+.send {
+    background-color: #222;
+    color: #c78c06;
+    margin-top: 10px;
+    width: 50px;
+    height: 30px;
+    border-color: #222;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+table th:nth-child(n),
+table td:nth-child(n) {
+    border: 1px solid black;
+    padding: 12px;
+}
+
+table th:nth-child(n) {
+    background-color:#ffe6ac;
+}
+.location1 {
+    width: 95%;
+    margin-left: 15px;
+}
+
+.site-footer{
+    background-color: #222;
+    text-decoration: none;
+    color: #c78c06;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 10px;
 }
 
 
-
-
-    
 
  
 
