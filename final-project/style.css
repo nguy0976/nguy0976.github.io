@@ -5,6 +5,7 @@
         max-width: 1200px;
         background-color: #222;
         height: 500px;
+        display: block;
 }
     }
 
@@ -48,19 +49,9 @@ ul li {
     padding: 25px;
     margin-left: 10px;
     font-size: 24px;
-    font-family: 'Open Sans' sans-serif;
+    font-family: 'Open Sans' , sans-serif;
 }
-.connect1 {
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    border: 1px solid #222;
-    background-color: #222 ;
-    padding: 25px;
-    margin-left: 15px;
-    font-size: 24px;
-    font-family: 'Open Sans' sans-serif;
-}
+
 
 ul li a {
     text-decoration: none;
@@ -110,12 +101,37 @@ h4 {
     position: relative;
     margin: auto;
     padding: 10px;
-    padding-top: -10px;
+    padding-top: 10px;
     bottom: 510px;
     color: white;
     border: 0.5px solid rgba(0, 0, 0, 0.267);
     background-color:rgba(0, 0, 0, 0.534) ;
     display: block;
+}
+.connect1 {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 1px solid #222;
+    background-color: #222 ;
+    padding: 25px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.connect2 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 28px;
+    padding-top: 28px;
+    color: white;
+    border: 0.5px solid #c78c06;
+    background-color:rgba(0, 0, 0, 0.534);
+    font-size: 24px;
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 15px;
 }
 .vision {
     color: white;
@@ -322,7 +338,6 @@ ul li {
     font-family: 'Open Sans' , sans-serif;
     font-size: 20px;
     margin-left: 40px; 
-
 }
 ul li a {
    margin-left: 20px;
