@@ -6,6 +6,15 @@
 }
     }
 
+body {
+    font-family: 'Open Sans' , sans-serif;
+}
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+    
 .container_top {
         background-color: #c78c06;
         margin-bottom: 500px;
@@ -20,7 +29,6 @@ ul li {
         padding-bottom: 25px;
         font-size: 16px;
         font-family: 'Open Sans' , sans-serif;
-        font-weight: bold;
 }
 .home1 {
     color: black;
@@ -36,7 +44,11 @@ ul li {
     border: 1px solid #c78c06;
     background-color:#c78c06 ;
     padding: 25px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'Open Sans' sans-serif;
 }
+
 ul li a {
     text-decoration: none;
     color: #c78c06;
@@ -45,7 +57,7 @@ ul li a {
 p {
     font-size: 14px;
     font-family: 'Open Sans' , sans-serif;
-    font-weight: bold;
+    margin-left: 15px;
 }
 
 h1 {
@@ -60,6 +72,7 @@ h2 {
     font-family: 'Open Sans' , sans-serif;
     font-size: 48px;
     font-weight: bold;
+    margin-left: 15px;
 }
 h3 {
     font-size: 30px;
@@ -86,6 +99,10 @@ h3 {
     border: 0.5px solid rgba(0, 0, 0, 0.267);
     background-color:rgba(0, 0, 0, 0.534) ;
     display: block;
+}
+.vision {
+    color: white;
+    margin-left: 15px;
 }
 
 .container_aboutus {
@@ -205,9 +222,11 @@ div textarea {
     background-color: #222;
     color: #c78c06;
     margin-top: 10px;
-    width: 50px;
-    height: 30px;
+    width: 80px;
+    height: 35px;
     border-color: #222;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
 }
 table {
     border-collapse: collapse;
