@@ -9,55 +9,10 @@
 }
     }
 
+/* ...Font-size for web...*/
 body {
     font-family: 'Open Sans' , sans-serif;
 }
-h3 {
-    font-size: 30px;
-    font-weight: bold;
-    margin-left: 15px;
-}
-    
-.container_top {
-        background-color: #c78c06;
-        margin-bottom: 500px;
-        margin-left: 10px;
-        margin-right: 10px;
-        height: 150px;
-}
-    
-ul li {
-        list-style: none;
-        text-align: center;
-        padding-bottom: 25px;
-        font-size: 16px;
-        font-family: 'Open Sans' , sans-serif;
-}
-.home1 {
-    color: black;
-}
-.search {
-    width: 90%;
-    height: 28px;
-}
-.connect {
-    text-decoration: none;
-    display: inline-block;
-    color: rgb(0, 0, 0);
-    border: 1px solid #c78c06;
-    background-color:#c78c06 ;
-    padding: 25px;
-    margin-left: 10px;
-    font-size: 24px;
-    font-family: 'Open Sans' , sans-serif;
-}
-
-
-ul li a {
-    text-decoration: none;
-    color: #c78c06;
-}
-
 p {
     font-size: 14px;
     font-family: 'Open Sans' , sans-serif;
@@ -82,18 +37,48 @@ h3 {
     font-size: 30px;
     font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
+    margin-left: 15px;
 }
 h4 {
     margin-left: 15px;
     margin-top: -30px;
 }
 
+/* ...navigation...*/
+ul li {
+    list-style: none;
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 16px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.home1 {
+color: black;
+}
+ul li a {
+    text-decoration: none;
+    color: #c78c06;
+}
+
+/* ...The search bar...*/
+.search {
+    width: 90%;
+    height: 28px;
+}
+
+/* ...Top of the page...*/
+.container_top {
+    background-color: #c78c06;
+    margin-bottom: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 150px;
+}
 .img2 {
     margin-top: -230px;
     width: 100%;
     height: 580px;
 }
-
 .home-info {
     width: 97%;
     height: 420px;
@@ -108,39 +93,9 @@ h4 {
     background-color:rgba(0, 0, 0, 0.534) ;
     display: block;
 }
-.connect1 {
-    text-decoration: none;
-    display: inline-block;
-    color: white;
-    border: 1px solid #222;
-    background-color: #222 ;
-    padding: 25px;
-    margin-left: 15px;
-    font-size: 24px;
-    font-family: 'Open Sans' , sans-serif;
-}
-.connect2 {
-    text-decoration: none;
-    display: inline-block;
-    position: relative;
-    margin: auto;
-    padding: 28px;
-    padding-top: 28px;
-    color: white;
-    border: 0.5px solid #c78c06;
-    background-color:rgba(0, 0, 0, 0.534);
-    font-size: 24px;
-    font-family: 'Open Sans' , sans-serif;
-    margin-left: 15px;
-}
-.vision {
-    color: white;
-    margin-left: 15px;
-}
-
 .container_aboutus {
     background-color: #ffe6ac;
-    height: 700px;
+    height: 690px;
     margin-top: -480px;
 }
 
@@ -150,35 +105,32 @@ h4 {
     margin-left: 15px;
 }
 
+/* ...Our services part...*/
 .container_digital {
     background-color: #ffe6ac;
     width: 95%;
     height: 720px;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-top: -25px
 }
-
 .img4 {
     width: 100%;
 }
-
 .container_marketing {
     background-color: #ffe6ac;
     width: 95%;
     height: 720px;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-top: 15px;
 }
-
 .img5 {
     width: 100%;
 }
-
 .container_video {
     background-color: #ffe6ac;
     width: 95%;
     height: 720px;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-top: 15px;
 }
 
@@ -190,7 +142,7 @@ h4 {
     background-color: #ffe6ac;
     width: 95%;
     height: 720px;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-top: 15px;
 }
 
@@ -202,7 +154,7 @@ h4 {
     background-color: #ffe6ac;
     width: 95%;
     height: 720px;
-    margin-left: 10px;
+    margin-left: 17px;
     margin-top: 15px; 
 }
 
@@ -210,24 +162,31 @@ h4 {
     width: 100%;   
 }
 
+/* ...Our vision part...*/
 .img9 {
     width: 100%;
     height: 280px;
     margin-top: 10px;
+    margin-top: 20px;
 }
 .vision {
     margin-top: -280px;
+    color: white;
+    margin-left: 15px;
 }
 
+/* ...Our team part...*/
+.our-team {
+    margin-top: -80px;
+}
 .team {
     margin-top: 120px;
 }
-
 .container_john {
     background-color: #ffe6ac;
     width: 95%;
     height: 680px;
-    margin-left: 15px;
+    margin-left: 17px;
     margin-top: -20px; 
 }
 .img10 {
@@ -237,13 +196,18 @@ h4 {
     background-color: #ffe6ac;
     width: 95%;
     height: 680px;
-    margin-left: 15px;
+    margin-left: 17px;
     margin-top: 15px; 
 }
 .img11 {
     width: 100%;
-}    
+} 
+.line {
+    border-bottom: 2px solid #c78c06;
+    width: 95%;
+}
 
+/* ...Contact part...*/
 div input,textarea {
     width: 100%;
     margin-top: 10px;
@@ -261,13 +225,29 @@ div textarea {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 24px;
 }
+.contact-us {
+    margin-left: 40px;
+    margin-right: 25px;
+}
+.contact {
+    margin-left: -20px;
+}
+.input {
+    margin-bottom: 5px
+}
+.text-sendus {
+    margin-top: -25px;
+}
+
+/* ...Hour of operation...*/
 table {
     border-collapse: collapse;
-    width: 100%;
-    margin-top: 10px;
+    width: 95%;
+    margin-top: -20px;
     margin-bottom: 10px;
     margin-left: 15px;
 }
+
 
 table th:nth-child(n),
 table td:nth-child(n) {
@@ -278,11 +258,8 @@ table td:nth-child(n) {
 table th:nth-child(n) {
     background-color:#ffe6ac;
 }
-.location1 {
-    width: 95%;
-    margin-left: 15px;
-}
 
+/* ...Footer...*/
 .site-footer{
     background-color: #222;
     text-decoration: none;
@@ -292,9 +269,56 @@ table th:nth-child(n) {
     padding-left: 15px;
     padding-bottom: 10px;
 }
-.contact-us {
-    margin-left: 20px;
+footer {
+    margin-top: 10px;
 }
+
+/* ...Location part...*/
+.location1 {
+    width: 95%;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
+/* ...Click button...*/ 
+.connect {
+    text-decoration: none;
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    border: 1px solid #c78c06;
+    background-color:#c78c06 ;
+    padding: 25px;
+    margin-left: 10px;
+    font-size: 24px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.connect1 , .connect2{
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    border: 1px solid #222;
+    background-color: #222 ;
+    padding: 25px;
+    margin-left: 15px;
+    font-size: 24px;
+    font-family: 'Open Sans' , sans-serif;
+}
+.connect3 {
+    text-decoration: none;
+    display: inline-block;
+    position: relative;
+    margin: auto;
+    padding: 28px;
+    padding-top: 28px;
+    color: white;
+    border: 0.5px solid #c78c06;
+    background-color:rgba(0, 0, 0, 0.534);
+    font-size: 24px;
+    font-family: 'Open Sans' , sans-serif;
+    margin-left: 15px;
+}
+
+/*.....................................................................................*/
 
 /* ...Desktop Style...*/
 
@@ -327,7 +351,15 @@ h3 {
     font-weight: bold;
     margin-left: 7px;
 }
-
+h4 {
+    margin-left: 8px;
+}
+.team {
+    margin-left: 115px;
+}
+.vision {
+    margin-left: 110px;
+}
 .home1 {
     background-color: #c78c06;
 }
@@ -441,7 +473,7 @@ ul li a {
     width: 100%;   
 }
 .img9 {
-    margin-top: -90px;
+    margin-top: -75px;
 }
 .container_john {
     display: flex;
@@ -498,11 +530,16 @@ ul li a {
     margin-left: 110px;
 }
 .connect1 {
-    width: 80%;
+    width: 86%;
     height: 30px;
     text-align: center;
     padding-top: 20px;
     margin-left: 10px;
+    margin-top: -7px;
     font-family: 'Open Sans' , sans-serif;
     font-size: 24px;
+}
+.connect2 {
+    width: 77%;
+    margin-top: -7px;
 }
