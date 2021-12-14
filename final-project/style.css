@@ -535,10 +535,46 @@ ul li a {
 }
 
 /* ...Contact part...*/ 
-/* ...Hour of operation...*/ 
-/* ...Footer...*/ 
-/* ...Location part...*/ 
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1px 1fr 240px;
+}
+.contact-us {
+    grid-row: 2;
+    grid-column: 1 / 2;
+}
+
 /* ...Location part...*/
+.location {
+    grid-row: 2;
+    grid-column: 2/4;
+    width: 87%;
+    margin-top: 100px;
+}
+
+/* ...Hour of operation...*/ 
+.hours-of-operation{
+    width: 88%;
+    margin-left: 110px;
+}
+.hours-of-operation {
+    grid-row: 3;
+    grid-column: 1/3;
+}
+.contact-us {
+    margin-left: 140px;
+    margin-right: 5px;
+    margin-top: -5px;
+}
+#text-contact {
+    margin-left: -1px;
+}
+.text-sendus {
+    margin-left: -2px;
+}
+
+/* ...Footer...*/ 
 /* ...Click button...*/ 
 .connect1 {
     width: 86%;
