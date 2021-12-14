@@ -237,6 +237,10 @@ div textarea {
 }
 .text-sendus {
     margin-top: -25px;
+    margin-left: -2px;
+}
+#text-contact {
+    margin-left: -1px;
 }
 
 /* ...Hour of operation...*/
@@ -459,7 +463,7 @@ ul li a {
     background-color: #ffe6ac;
     width: 80%;
     height: 550px;
-    margin-left: -32px;
+    margin-left: -27px;
 }
 
 .img8 {
@@ -567,14 +571,11 @@ ul li a {
     margin-right: 5px;
     margin-top: -5px;
 }
-#text-contact {
-    margin-left: -1px;
-}
-.text-sendus {
-    margin-left: -2px;
-}
 
 /* ...Footer...*/ 
+.text-footer {
+    margin-left: 110px;
+}
 /* ...Click button...*/ 
 .connect1 {
     width: 86%;
