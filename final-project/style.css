@@ -259,6 +259,13 @@ table th:nth-child(n) {
     background-color:#ffe6ac;
 }
 
+/* ...Location part...*/
+.location1 {
+    width: 95%;
+    margin-left: 15px;
+    margin-top: -20px;
+}
+
 /* ...Footer...*/
 .site-footer{
     background-color: #222;
@@ -271,13 +278,6 @@ table th:nth-child(n) {
 }
 footer {
     margin-top: 10px;
-}
-
-/* ...Location part...*/
-.location1 {
-    width: 95%;
-    margin-left: 15px;
-    margin-top: -20px;
 }
 
 /* ...Click button...*/ 
@@ -329,23 +329,21 @@ footer {
         height: 150px;
         margin-left: 0%;  
 }
+
+/* ...Font-size for web...*/ 
 body {
     font-family: 'Open Sans' , sans-serif;
 }
-
 p {
     margin-left: 10px;
 }
-
 h1 {
     font-size: 85px;
 }
-
 h2 {
     font-size: 54px;
     font-weight: bold;
 }
-
 h3 {
     font-size: 36px;
     font-weight: bold;
@@ -354,16 +352,8 @@ h3 {
 h4 {
     margin-left: 8px;
 }
-.team {
-    margin-left: 115px;
-}
-.vision {
-    margin-left: 110px;
-}
-.home1 {
-    background-color: #c78c06;
-}
 
+/* ...navigation...*/ 
 ul li {
     list-style: none;
     display: inline;
@@ -375,23 +365,25 @@ ul li a {
    margin-left: 20px;
    text-align: center;
 }
+.home1 {
+    background-color: #c78c06;
+}
+
+/* ...The search bar...*/ 
 .search {
     width: 20%;
     float:right
 }
+
+/* ...Top of the page...*/ 
 .img1 {
     margin-top: 25px;
     margin-left: 5em;
     float: left;
 }
-
 .img2 {
     margin-top: -500px;
 }
-.search {
-    display: inline-block;
-}
-
 .home-info {
     width: 81%;
 }
@@ -402,7 +394,6 @@ ul li a {
     margin-top: 10px;
     margin-right: 15px;
 }
-
 .container_aboutus {
    height: 280px;
    margin-top: -492px;
@@ -415,6 +406,8 @@ ul li a {
     margin-top: 20px;
     padding-right: 120px;
 }
+
+/* ...Our services part...*/ 
 
 .container_digital {
     background-color: #ffe6ac;
@@ -472,30 +465,7 @@ ul li a {
 .img8 {
     width: 100%;   
 }
-.img9 {
-    margin-top: -75px;
-}
-.container_john {
-    display: flex;
-    height: 400px;
-    width: 83%;
-    margin-left: 120px;
-}
-.img10 {
-    width: 50%;
-}
-.container_bob {
-    width: 83%;
-    height: 400px;
-    margin-top: -1px;
-    margin-left: 120px;
-    display: flex;
-    flex-direction: row-reverse;
-}
-.img11 {
-    width: 50%;
-}
-
+/* use CSS Grid to edit the container */
 .services {
     display: grid;
     grid-template-columns: repeat(6, 1fr);
@@ -529,6 +499,47 @@ ul li a {
     margin-top: 10px;
     margin-left: 110px;
 }
+
+/* ...Our vision part...*/ 
+.vision {
+    margin-left: 110px;
+}
+.img9 {
+    margin-top: -75px;
+}
+
+/* ...Our team part...*/ 
+.container_john {
+    display: flex;
+    height: 400px;
+    width: 83%;
+    margin-left: 120px;
+}
+.img10 {
+    width: 50%;
+}
+.container_bob {
+    width: 83%;
+    height: 400px;
+    margin-top: -1px;
+    margin-left: 120px;
+    /* Use Css Flexbox for etaggered imgages */
+    display: flex;
+    flex-direction: row-reverse;
+}
+.img11 {
+    width: 50%;
+}
+.team {
+    margin-left: 115px;
+}
+
+/* ...Contact part...*/ 
+/* ...Hour of operation...*/ 
+/* ...Footer...*/ 
+/* ...Location part...*/ 
+/* ...Location part...*/
+/* ...Click button...*/ 
 .connect1 {
     width: 86%;
     height: 30px;
