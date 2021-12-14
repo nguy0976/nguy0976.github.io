@@ -1,4 +1,51 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
 /* ...Mobile Style... */
 
 @media screen and (max-width: 760px) { 
@@ -18,6 +65,7 @@ p {
     font-size: 14px;
     font-family: 'Open Sans' , sans-serif;
     margin-left: 15px;
+    margin-top: 20px;
 }
 
 h1 {
@@ -33,23 +81,26 @@ h2 {
     font-size: 48px;
     font-weight: bold;
     margin-left: 15px;
+    margin-top: 20px;
 }
 h3 {
     font-size: 30px;
     font-family: 'Open Sans' , sans-serif;
     font-weight: bold;
     margin-left: 15px;
+    margin-top: 15px;
 }
 h4 {
     margin-left: 15px;
-    margin-top: -30px;
+    margin-top: 10px;
 }
 
 /* ...navigation...*/
+
 ul li {
     list-style: none;
     text-align: center;
-    padding-bottom: 25px;
+    padding-bottom: 30px;
     font-size: 16px;
     font-family: 'Open Sans' , sans-serif;
 }
@@ -77,18 +128,20 @@ ul li a {
 }
 
 /* ...Top of the page...*/
+.welcome-section {
+    background-image: url(../final-project/images/main-banner.jpg);
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
 .container_top {
     background-color: #c78c06;
-    margin-bottom: 500px;
+    margin-bottom: 270px;
     margin-left: 10px;
     margin-right: 10px;
-    height: 150px;
+    height: 130px;
 }
-.img2 {
-    margin-top: -230px;
-    width: 100%;
-    height: 580px;
-}
+
 .home-info {
     width: 97%;
     height: 420px;
@@ -97,7 +150,7 @@ ul li a {
     margin: auto;
     padding: 10px;
     padding-top: 10px;
-    bottom: 510px;
+    
     color: white;
     border: 0.5px solid rgba(0, 0, 0, 0.267);
     background-color:rgba(0, 0, 0, 0.534) ;
@@ -105,13 +158,13 @@ ul li a {
 }
 .container_aboutus {
     background-color: #ffe6ac;
-    height: 690px;
-    margin-top: -480px;
+    height: 570px;
+    
 }
 
 .img3 {
     width: 95%;
-    margin-top: 50px;
+    margin-top: 10px;
     margin-left: 15px;
 }
 
@@ -119,9 +172,8 @@ ul li a {
 .container_digital {
     background-color: #ffe6ac;
     width: 95%;
-    height: 720px;
+    height: 700px;
     margin-left: 17px;
-    margin-top: -25px
 }
 .img4 {
     width: 100%;
@@ -129,9 +181,9 @@ ul li a {
 .container_marketing {
     background-color: #ffe6ac;
     width: 95%;
-    height: 720px;
+    height: 700px;
     margin-left: 17px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 .img5 {
     width: 100%;
@@ -139,9 +191,9 @@ ul li a {
 .container_video {
     background-color: #ffe6ac;
     width: 95%;
-    height: 720px;
+    height: 700px;
     margin-left: 17px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .img6 {
@@ -151,9 +203,9 @@ ul li a {
 .container_web {
     background-color: #ffe6ac;
     width: 95%;
-    height: 720px;
+    height: 700px;
     margin-left: 17px;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .img7 {
@@ -163,9 +215,9 @@ ul li a {
 .container_print {
     background-color: #ffe6ac;
     width: 95%;
-    height: 720px;
+    height: 700px;
     margin-left: 17px;
-    margin-top: 15px; 
+    margin-top: 10px; 
 }
 
 .img8 {
@@ -186,18 +238,14 @@ ul li a {
 }
 
 /* ...Our team part...*/
-.our-team {
-    margin-top: -80px;
-}
 .team {
-    margin-top: 120px;
+    margin-top: 70px;
 }
 .container_john {
     background-color: #ffe6ac;
     width: 95%;
     height: 680px;
     margin-left: 17px;
-    margin-top: -20px; 
 }
 .img10 {
     width: 100%;
@@ -238,30 +286,28 @@ div textarea {
 .contact-us {
     margin-left: 40px;
     margin-right: 25px;
+    margin-top: 40px;
 }
-.contact {
-    margin-left: -20px;
-}
+
 .input {
     margin-bottom: 5px
 }
-.text-sendus {
-    margin-top: -25px;
-    margin-left: -2px;
-}
-#text-contact {
-    margin-left: -1px;
-}
+
 
 /* ...Hour of operation...*/
 table {
     border-collapse: collapse;
     width: 95%;
-    margin-top: -20px;
     margin-bottom: 10px;
     margin-left: 15px;
 }
+.hours-of-operation {
+    margin-top: 20px;
+}
 
+#hours {
+    margin-top: 20px;
+}
 
 table th:nth-child(n),
 table td:nth-child(n) {
@@ -277,7 +323,8 @@ table th:nth-child(n) {
 .location1 {
     width: 95%;
     margin-left: 15px;
-    margin-top: -20px;
+    margin-top: 20px;
+    
 }
 
 /* ...Footer...*/
@@ -303,6 +350,7 @@ footer {
     background-color:#c78c06 ;
     padding: 25px;
     margin-left: 10px;
+    margin-top: 50px;
     font-size: 24px;
     font-family: 'Open Sans' , sans-serif;
 }
@@ -313,6 +361,7 @@ footer {
     border: 1px solid #222;
     background-color: #222 ;
     padding: 25px;
+    margin-top: 40px;
     margin-left: 15px;
     font-size: 24px;
     font-family: 'Open Sans' , sans-serif;
@@ -323,13 +372,13 @@ footer {
     position: relative;
     margin: auto;
     padding: 28px;
-    padding-top: 28px;
     color: white;
     border: 0.5px solid #c78c06;
     background-color:rgba(0, 0, 0, 0.534);
     font-size: 24px;
     font-family: 'Open Sans' , sans-serif;
     margin-left: 15px;
+    margin-top: 50px;
 }
 
 /*.....................................................................................*/
@@ -342,6 +391,13 @@ footer {
         background-color: #222;
         height: 150px;
         margin-left: 0%;  
+}
+.header-menu {
+    display: flex;
+    align-items: center;
+}
+.menu {
+    flex-grow: 1;
 }
 
 /* ...Font-size for web...*/ 
@@ -374,6 +430,7 @@ ul li {
     font-family: 'Open Sans' , sans-serif;
     font-size: 20px;
     margin-left: 40px; 
+    width: 100%;
 }
 ul li a {
    margin-left: 20px;
@@ -387,6 +444,10 @@ ul li a {
 .search {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    width: 10%;
+    float: left;
+    margin-right: 150px;
+    margin-top: 30px;
 }
 
 /* ...Top of the page...*/ 
@@ -394,10 +455,16 @@ ul li a {
     margin-top: 25px;
     margin-left: 5em;
     float: left;
+   
 }
-.img2 {
-    margin-top: -500px;
+.welcome-section {
+    background-image: url(../final-project/images/main-banner.jpg);
+    display: flex;
+    width: 100%;
+    height: 600px;
+    margin-top: -270px;
 }
+
 .home-info {
     width: 81%;
 }
@@ -410,10 +477,9 @@ ul li a {
 }
 .container_aboutus {
    height: 280px;
-   margin-top: -492px;
+   margin-top: -20px;
 }
 .text-aboutus {
-    margin-top: -10px;
     padding-right: 130px;
 }
 .text-aboutus1 {
@@ -426,7 +492,7 @@ ul li a {
 .container_digital {
     background-color: #ffe6ac;
     width: 80%;
-    height: 620px;
+    height: 600px;
     margin-top: 30px;
     margin-left: 120px;
 }
@@ -438,7 +504,7 @@ ul li a {
 .container_marketing {
     background-color: #ffe6ac;
     width: 80%;
-    height: 620px;
+    height: 600px;
     margin-top: 30px;
 }
 
@@ -449,7 +515,7 @@ ul li a {
 .container_video {
     background-color: #ffe6ac;
     width: 32%;
-    height: 550px;
+    height: 520px;
     margin-left: 120px;
 }
 
@@ -460,20 +526,20 @@ ul li a {
 .container_web {
     background-color: #ffe6ac;
     width: 39%;
-    height: 550px;
+    height: 520px;
     margin-left: 50px;
 }
 
 .img7 {
     width: 100%;
-    height: 229px;
+    height: 233px;
 }
 
 .container_print {
     background-color: #ffe6ac;
     width: 80%;
-    height: 550px;
-    margin-left: -27px;
+    height: 520px;
+    margin-left: 190px;
 }
 
 .img8 {
@@ -505,7 +571,7 @@ ul li a {
 }
 .print {
     grid-row: 3;
-    grid-column: 5 / 9;
+    grid-column: 4 / 6;
 }
 .services h2{
     grid-row: 1;
@@ -528,6 +594,7 @@ ul li a {
     height: 400px;
     width: 83%;
     margin-left: 120px;
+    margin-top: 20px
 }
 .img10 {
     width: 50%;
@@ -535,7 +602,7 @@ ul li a {
 .container_bob {
     width: 83%;
     height: 400px;
-    margin-top: -1px;
+    margin-top: 1px;
     margin-left: 120px;
     /* Use Css Flexbox for etaggered imgages */
     display: flex;
@@ -579,7 +646,7 @@ ul li a {
 .contact-us {
     margin-left: 140px;
     margin-right: 5px;
-    margin-top: -5px;
+  
 }
 
 /* ...Footer...*/ 
@@ -593,11 +660,10 @@ ul li a {
     text-align: center;
     padding-top: 20px;
     margin-left: 10px;
-    margin-top: -7px;
+
     font-family: 'Open Sans' , sans-serif;
     font-size: 24px;
 }
 .connect2 {
     width: 77%;
-    margin-top: -7px;
 }
